@@ -18,7 +18,7 @@ commitizen() {
 }
 
 standard_version() {
-    echo "Installing release-please..."
+    echo "Installing standard-version..."
     npm install --save-dev standard-version
 }
 
