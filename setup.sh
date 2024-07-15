@@ -20,6 +20,7 @@ commitizen() {
 standard_version() {
     echo "Installing standard-version..."
     npm install --save-dev standard-version
+    npm pkg set scripts.release="standard-version"
 }
 
 readme(){
